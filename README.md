@@ -8,3 +8,7 @@ Faculdade de Tecnologia de Tatuí
 
 
  ## fsdgfsd gds
+ - Pedro Lucas
+ 
+ "Repetição até a exaustão, com
+ correção leva à perfeição"
