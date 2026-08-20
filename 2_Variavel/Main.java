@@ -11,7 +11,17 @@ public class Main {
         String uf = "SP";
         double salario = 2000.00;
         double valor_hora_extra = 100.00;
+
         System.out.println("Nome do aluno: " + nome + " " + sobrenome);
+        System.out.println("Idade do aluno: " + idade);
+        System.out.println("Altura do aluno: " + altura);
+        System.out.println("Empregado: " + empregado);
+        System.out.println("Telefone do aluno: " + telefone);
+        System.out.println("Endereco do aluno: " + endereco);
+        System.out.println("CEP do aluno: " + cep);
+        System.out.println("UF do aluno: " + uf);
+        System.out.println("Salario do aluno: " + salario);
+        System.out.println("Valor da hora extra do aluno: " + valor_hora_extra);
 
     }
 }

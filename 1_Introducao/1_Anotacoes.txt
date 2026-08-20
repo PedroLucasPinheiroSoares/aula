@@ -1,0 +1,24 @@
+(acessar diretório do arquivo)
+
+PS C:\Users\Aluno\Desktop\aula> cd 1_Introducao
+
+
+
+
+
+
+
+(compilar o arquivo espqcificando o nome depois de javac)
+
+PS C:\Users\Aluno\Desktop\aula\1_Introducao> javac Main.java 
+
+
+
+
+
+
+
+(executar o arquivo é só java Main e caso não for especifica o nome de novo)
+
+PS C:\Users\Aluno\Desktop\aula\1_Introducao> java Main      
+Hello World
