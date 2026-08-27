@@ -2,6 +2,11 @@ package exercicios;
 public class Main {
     public static void main(String[] args){
 
+
+
+        //EXERCICIO 1 -----------------------
+
+
         //boolean luz = true;
         //if (luz) {
             //System.out.println("Luz Acesa !!!");
@@ -17,6 +22,7 @@ public class Main {
         //}
 
 
+        //EXERCICIO 2 -----------------------------
 
 
         //int tempo = 20;
@@ -25,23 +31,33 @@ public class Main {
 
 
 
-        int idade = 0;
-        String mensagem = "";
 
-        if (idade > 0 && idade < 13){
-            mensagem = "crianca";
+        //EXERCICIO 3 ------------------------------------
 
-        }else if (idade > 12 && idade < 19){
-            mensagem = "adolescente";
 
-        }else if (idade > 18 && idade < 61){
-            mensagem = "adulto";
+        // int idade = 0;
+        // String mensagem = "";
 
-        }else if (idade > 60){
-            mensagem = "idoso";
-        }
+        // if (idade > 0 && idade < 13){
+        //     mensagem = "crianca";
 
-        System.out.println(mensagem);
+        // }else if (idade > 12 && idade < 19){
+        //     mensagem = "adolescente";
+
+        // }else if (idade > 18 && idade < 61){
+        //     mensagem = "adulto";
+
+        // }else if (idade > 60){
+        //     mensagem = "idoso";
+        // }
+
+        // System.out.println(mensagem);
+
+
+
+        //EXERCICIO 4 ------------------------------------ regra do Object Calisthenics
+
+        // pesquisar sobre IF TERNARIO
 
     }
 }
