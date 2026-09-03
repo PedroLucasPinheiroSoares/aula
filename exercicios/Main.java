@@ -1,4 +1,3 @@
-package exercicios;
 public class Main {
     public static void main(String[] args){
 
@@ -58,6 +57,8 @@ public class Main {
         //EXERCICIO 4 ------------------------------------ regra do Object Calisthenics
 
         // pesquisar sobre IF TERNARIO
+
+        System.out.println("não fizemos o exercicio 4, não deu tempo");
 
     }
 }
