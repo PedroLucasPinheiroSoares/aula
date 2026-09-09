@@ -36,5 +36,17 @@ public class Main {
                 System.out.println(numeros[i][j]); // Exibe todos os elementos da matriz
             }
         }
+
+
+
+        // Segue abaixo a exibição foda
+        for(int i = 0; i < 4; i++){
+            for(int j = 0; j < 4; j++){
+                System.out.print(numeros[i][j] + " "); 
+                if (j == 3){
+                    System.out.println("");
+                }
+            }
+        }
     }
 }
