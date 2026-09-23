@@ -1,0 +1,22 @@
+                  CLASS
+          _______________________
+          |   PERSONAGEM (nome): |
+          |______________________|
+ P        | nome: String         |
+  R       | idade: int           |
+   O      | poder: float         |-----> Instância  ----> Objecto (que tem nome e idade)
+    P     | localizacao_x: 100px |
+     S    |                      |
+          |                      |
+          |                      |-----> Instância  ----> Objecto (que tem nome e idade)
+FUNCTION  |  pular ()            |
+          |  correr ()           |
+          |______________________|
+          
+
+
+
+
+
+
+props = propriedade
