@@ -8,5 +8,8 @@ public class Main {
         System.out.println(persona.nome);
         System.out.println(persona.idade);
         System.out.println(persona.poder);
+
+        persona.pular();
+        persona.correr();
     }
 }
