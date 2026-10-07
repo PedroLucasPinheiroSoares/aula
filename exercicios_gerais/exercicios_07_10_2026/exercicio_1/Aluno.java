@@ -14,5 +14,27 @@ public class Aluno {
 
     }
 
-    public static void dormirNaAula
+    public static void dormirNaAula () {
+        if (nivel_sono < 51) {
+            piscando_lento = false;
+        }else {
+            piscando_lento = true;
+        }
+
+        if (piscando_lento == false) {
+            System.out.println("O aluno está acordado.");
+        }else {
+            System.out.println("O aluno dormiu na aula!");
+        }
+
+    }
+
+    public static void fingirEstudar() {
+        if (inteligente == false) {
+            System.out.println("O aluno FINGE estudar!");
+        }else {
+            System.out.println("O aluno realmente estuda.");
+        }
+        
+    }
 }
