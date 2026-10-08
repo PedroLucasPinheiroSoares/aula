@@ -14,27 +14,32 @@ public class Aluno {
 
     }
 
-    public static void dormirNaAula () {
-        if (nivel_sono < 51) {
-            piscando_lento = false;
-        }else {
-            piscando_lento = true;
-        }
+    public void setNome (String nome) { this.nome = nome;}
+    public String getNome() {return this.nome;}
+    public void setEmail (String email) { this.email = email;}
+    public String getEmail() {return this.email;}
+    public void setInteligente (Boolean inteligente) { this.inteligente = inteligente;}
+    public Boolean getInteligente() {return this.inteligente;}
+    public void setNivelSono (int nivel_sono) { this.nivel_sono = nivel_sono;}
+    public int getNivelSono() {return this.nivel_sono;}
+    public void setPiscandoLento (Boolean piscando_lento) { this.piscando_lento = piscando_lento;}
+    public Boolean getPiscandoLento() {return this.piscando_lento;}
 
-        if (piscando_lento == false) {
-            System.out.println("O aluno está acordado.");
-        }else {
-            System.out.println("O aluno dormiu na aula!");
+    //Métodos Personalizados
+    public void dormirNaAula() {
+        if (nivel_sono < 6) {
+            System.out.println("O aluno não está dormindo na aula.");
+        }else{
+            System.out.println("O aluno está dormindo na aula!");
         }
-
     }
 
-    public static void fingirEstudar() {
-        if (inteligente == false) {
-            System.out.println("O aluno FINGE estudar!");
-        }else {
+    public void fingirEstudar(){
+        if(inteligente = false){
+            System.out.println("O aluno finge estudar!");
+        }else{
             System.out.println("O aluno realmente estuda.");
         }
-        
     }
+ 
 }
