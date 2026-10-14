@@ -32,6 +32,7 @@ public class Escola {
             System.out.println("Nível de Paciência: " + prof.getNivelDePaciencia());
             System.out.println("Usa data show: " + prof.getUsaDataShow());
             System.out.println("Frase Favorita do Professor: " + prof.getFraseFavorita());
+            prof.tomarCafe();
             System.out.println(""); //espaço
             System.out.println("______________"); //linha
         }

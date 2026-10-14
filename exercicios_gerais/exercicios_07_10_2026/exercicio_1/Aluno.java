@@ -35,7 +35,7 @@ public class Aluno {
     }
 
     public void fingirEstudar(){
-        if(inteligente = false){
+        if(inteligente == false){
             System.out.println("O aluno finge estudar!");
         }else{
             System.out.println("O aluno realmente estuda.");

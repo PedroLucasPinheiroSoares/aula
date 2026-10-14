@@ -9,7 +9,7 @@ public class Professor {
 
 
     //metodo construtor
-    public Professor(String nome, int quantidade_cafe, String humor, String ivel_de_paciencia, boolean usaDatashow, String fraseFavorita){
+    public Professor(String nome, int quantidade_cafe, String humor, String nivel_de_paciencia, boolean usa_data_show, String frase_favorita){
         this.nome = nome;
         this.quantidade_cafe = quantidade_cafe;
         this.humor = humor;
