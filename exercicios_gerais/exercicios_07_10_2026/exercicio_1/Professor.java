@@ -1,3 +1,4 @@
+//Nome da classe é PascalCase
 public class Professor {
     //atributos
     String nome = "";
