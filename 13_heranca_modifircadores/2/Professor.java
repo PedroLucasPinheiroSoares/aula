@@ -1,0 +1,15 @@
+public class Professor extends Pessoa {
+
+    public Professor(String nome, int idade){
+        this.nome = nome;
+        this.idade = idade;
+    }
+
+    public void profissao(){
+        System.out.println(" Ola grandioso professor " + this.nome + "!");
+        System.out.println(" Sua idade e de " + this.idade + " anos");
+        System.out.println(" ");
+    }
+    
+}
+
